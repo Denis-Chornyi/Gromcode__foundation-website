@@ -46,7 +46,7 @@
     margin-right: 10px;
 
     @include for-large-up {
-      margin-top: 25px;
+      margin-bottom: 59px;
       justify-content: left;
     }
   }
@@ -57,8 +57,7 @@
   flex-direction: column;
 
   @include for-large-up {
-    margin-top: 60px;
-    margin-left: auto;
+    margin: 60px 10px 0 auto;
     flex-direction: row;
   }
   &__column {
@@ -140,8 +139,7 @@
   margin-bottom: 22px;
 
   @include for-large-up {
-    margin-left: auto;
-    margin-bottom: 0;
+    margin: 30px 0 0 auto;
   }
 
   &__item {

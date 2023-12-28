@@ -209,7 +209,7 @@
 }
 @media screen and (min-width: 1400px) {
   .downloads__item {
-    margin-top: 25px;
+    margin-bottom: 59px;
     justify-content: left;
   }
 }
@@ -221,8 +221,7 @@
 }
 @media screen and (min-width: 1400px) {
   .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
+    margin: 60px 10px 0 auto;
     flex-direction: row;
   }
 }
@@ -309,8 +308,7 @@
 }
 @media screen and (min-width: 1400px) {
   .social-links {
-    margin-left: auto;
-    margin-bottom: 0;
+    margin: 30px 0 0 auto;
   }
 }
 .social-links__item {
