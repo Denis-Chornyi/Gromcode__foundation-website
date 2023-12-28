@@ -21,6 +21,14 @@
   }
 }
 
+.icon-arrow_right {
+  display: block;
+  width: 7px;
+  height: 12px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
+  background-repeat: no-repeat;
+}
+
 .customers {
   display: flex;
   flex-direction: column;
@@ -1010,13 +1018,13 @@
   color: #3142c6;
 }
 
-.audiences {
+.audience {
   background-color: rgba(0, 161, 198, 0.0705882353);
   text-align: center;
   padding: 50px 15px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences {
+  .audience {
     padding: 108px 0 110px 0;
     display: flex;
     flex-direction: column;
@@ -1024,22 +1032,22 @@
   }
 }
 @media screen and (min-width: 1400px) {
-  .audiences__content {
+  .audience__content {
     max-width: 555px;
   }
 }
-.audiences__content-subtitle {
+.audience__content-subtitle {
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
   margin: 0 0 17px 0;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__content-subtitle {
+  .audience__content-subtitle {
     margin: 0 0 24px 0;
   }
 }
-.audiences__content-title {
+.audience__content-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
@@ -1047,7 +1055,7 @@
   margin: 0 0 18px 0;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__content-title {
+  .audience__content-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 56px;
@@ -1056,40 +1064,43 @@
     margin: 0 0 30px 0;
   }
 }
-.audiences__content-description {
+.audience__content-description {
   font-size: 24px;
   line-height: 34px;
   margin: 0 0 30px 0;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__content-description {
+  .audience__content-description {
     margin: 0 0 34px 0;
   }
 }
-.audiences__content-action-btn {
+.audience__content-action-btn {
   width: 100%;
   margin: 0 0 12px 0;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__content-action-btn {
+  .audience__content-action-btn {
     width: 160px;
     margin: 0 10px 111px 0;
   }
 }
-.audiences__cards :hover,
-.audiences__cards :active {
+.audience__cards {
+  margin-top: 28px;
+}
+.audience__cards :hover,
+.audience__cards :active {
   background-color: #3141c5;
   color: #fff;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__cards {
+  .audience__cards {
     display: flex;
   }
-  .audiences__cards :last-child {
+  .audience__cards :last-child {
     margin-right: 0;
   }
 }
-.audiences__cards-item {
+.audience__cards-item {
   margin: 15px 0 0 0;
   border-radius: 8px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%), #fff;
@@ -1098,15 +1109,15 @@
   cursor: pointer;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__cards-item {
+  .audience__cards-item {
     width: 262px;
     margin: 0 30px 0 0;
   }
 }
-.audiences__cards-item-img {
+.audience__cards-item-img {
   padding: 22px 0;
 }
-.audiences__cards-item-description {
+.audience__cards-item-description {
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
@@ -1321,14 +1332,6 @@
   .vacancy__arrow-container {
     background-color: transparent;
   }
-}
-
-.icon-arrow_right {
-  display: block;
-  width: 7px;
-  height: 12px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
-  background-repeat: no-repeat;
 }
 
 * {
