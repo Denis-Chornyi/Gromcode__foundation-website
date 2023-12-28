@@ -401,7 +401,7 @@
 @media screen and (min-width: 1400px) {
   .navigation {
     display: block;
-    margin: 7px 56px 12px auto;
+    margin: 7px 75px 0 auto;
   }
 }
 .navigation-item {
@@ -427,6 +427,11 @@
 
 .logo {
   display: flex;
+}
+@media screen and (min-width: 1400px) {
+  .logo {
+    padding: 2px 0 0 10px;
+  }
 }
 .logo__image {
   height: 48px;

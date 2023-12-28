@@ -48,7 +48,7 @@
 
   @include for-large-up {
     display: block;
-    margin: 7px 56px 12px auto;
+    margin: 7px 75px 0 auto;
   }
 
   &-item {
@@ -75,6 +75,10 @@
 
 .logo {
   display: flex;
+
+  @include for-large-up {
+    padding: 2px 0 0 10px;
+  }
 
   &__image {
     height: 48px;
