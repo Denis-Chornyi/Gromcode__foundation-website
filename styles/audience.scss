@@ -63,11 +63,6 @@
   &__cards {
     margin-top: 28px;
 
-    :hover {
-      background-color: $color-dark-blue;
-      color: $text-color-white;
-    }
-
     @include for-large-up {
       margin-top: 0;
       display: flex;
@@ -107,6 +102,12 @@
         padding-bottom: 33px;
       }
     }
+  }
+}
+.user-card {
+  :hover {
+    background-color: $color-dark-blue;
+    color: $text-color-white;
   }
 }
 .audience__content-action-btn-white {
