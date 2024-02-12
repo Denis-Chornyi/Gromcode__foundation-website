@@ -63,6 +63,11 @@
   &__cards {
     margin-top: 28px;
 
+    :hover {
+      background-color: $color-dark-blue;
+      color: $text-color-white;
+    }
+
     @include for-large-up {
       margin-top: 0;
       display: flex;
@@ -70,46 +75,41 @@
         margin-right: 0;
       }
     }
-
-    &-item {
-      margin: 15px 0 0 0;
-      border-radius: 8px;
-      background: linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 0) 100%
-        ),
-        #fff;
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
-        0px 1px 3px 0px rgba(0, 0, 0, 0.1),
-        0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
-      cursor: pointer;
-
-      @include for-large-up {
-        width: 262px;
-        margin: 0 30px 0 0;
-      }
-
-      &-img {
-        padding: 22px 0 16px 0;
-      }
-
-      &-description {
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 28px;
-        padding-bottom: 33px;
-      }
-    }
   }
 }
+
 .user-card {
-  :hover {
-    background-color: $color-dark-blue;
-    color: $text-color-white;
+  margin: 15px 0 0 0;
+  border-radius: 8px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #fff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  cursor: pointer;
+
+  @include for-large-up {
+    width: 262px;
+    margin: 0 30px 0 0;
+  }
+
+  &-img {
+    padding: 22px 0 16px 0;
+  }
+
+  &-description {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-bottom: 33px;
   }
 }
+
 .audience__content-action-btn-white {
   color: $text-color-black;
 }
