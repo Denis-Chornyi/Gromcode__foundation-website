@@ -1086,7 +1086,7 @@
 .audience__cards {
   margin-top: 28px;
 }
-.audience__cards :hover {
+.audience .user-card:hover {
   background-color: #3141c5;
   color: #fff;
 }
