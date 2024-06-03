@@ -2,6 +2,8 @@
 
 ### [Site link](https://denis-chornyi.github.io/Gromcode__foundation-website/)
 
+Layout supports mobile (up-to-1400) and desctop (up-to-1900) versions
+
 ### The tech stack is:
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
