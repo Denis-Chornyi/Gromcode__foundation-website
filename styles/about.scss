@@ -2,6 +2,7 @@
   width: 100%;
   padding: 30px 15px;
   background-color: #f4f5f7;
+
   @include for-large-up {
     display: flex;
     justify-content: space-between;
@@ -15,6 +16,7 @@
   @include for-large-up {
     max-width: 555px;
   }
+
   &:last-child {
     margin-top: 20px;
 
@@ -22,12 +24,13 @@
       margin-top: 0;
     }
   }
+
   &__title {
     font-weight: 700;
     margin: 0;
   }
+
   &__text {
     margin: 6px 0 0 0;
   }
 }
-

@@ -15,6 +15,7 @@
       color: #2b292d99;
     }
   }
+
   &__line {
     width: 100%;
     border-top: 1px solid #2b292d;
@@ -42,6 +43,7 @@
     margin-top: 25px;
     justify-content: left;
   }
+
   &__item {
     margin-right: 10px;
 
@@ -60,6 +62,7 @@
     margin: 60px 10px 0 auto;
     flex-direction: row;
   }
+
   &__column {
     margin-top: 30px;
 
@@ -79,6 +82,7 @@
     line-height: 28px;
     margin: 0;
   }
+
   &__list {
     list-style-type: none;
     font-size: 18px;
@@ -164,6 +168,7 @@
     width: 60px;
     height: 60px;
   }
+
   &__name {
     text-align: center;
     font-size: 20px;
@@ -171,6 +176,7 @@
     line-height: 25px;
     margin-top: 20px;
   }
+
   &__description {
     color: #2b292d99;
     font-size: 18px;

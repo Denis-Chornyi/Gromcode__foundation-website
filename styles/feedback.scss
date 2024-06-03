@@ -17,6 +17,7 @@
     color: $text-color-blue;
     margin: 0 0 29px 0;
   }
+
   &__description {
     line-height: 34px;
     margin: 0 0 32px 0;
@@ -26,6 +27,7 @@
       margin: 0 0 34px 0;
     }
   }
+
   &__worker {
     max-width: 100%;
     padding-bottom: 40px;
@@ -42,6 +44,7 @@
       color: $text-color-light-grey;
     }
   }
+
   &__dots {
     display: flex;
     justify-content: center;
@@ -63,6 +66,7 @@
       background-color: $text-color-blue;
     }
   }
+
   &__image {
     @include for-large-up {
       position: absolute;
