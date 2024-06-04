@@ -316,7 +316,8 @@
 }
 @media screen and (min-width: 1400px) {
   .social-links {
-    margin: 30px 0 0 auto;
+    margin-left: auto;
+    margin-bottom: 0;
   }
 }
 .social-links__item {
@@ -368,6 +369,7 @@
     width: 1140px;
     height: auto;
     margin: auto;
+    margin-top: 39px;
     padding-left: 4px;
     display: flex;
     background-color: #f3c6bd;
@@ -1166,7 +1168,6 @@
 }
 @media screen and (min-width: 1400px) {
   .feedback__worker {
-    text-align: center;
     padding-bottom: 38px;
   }
 }
@@ -1346,6 +1347,15 @@ html {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
   color: #2b292d;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(43, 41, 46, 0.6);
+}
+
+button {
+  cursor: pointer;
 }
 
 .page {
