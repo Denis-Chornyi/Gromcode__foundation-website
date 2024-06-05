@@ -8,6 +8,7 @@
   border-radius: 2px;
   border: none;
 }
+
 .hide-mobile {
   @include for-large-up {
     display: none;
