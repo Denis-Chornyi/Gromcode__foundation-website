@@ -23,6 +23,20 @@
   display: block;
   width: 7px;
   height: 12px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png');
   background-repeat: no-repeat;
+}
+
+.top-section {
+  background-color: $color-light-pink;
+
+  @include for-large-up {
+    .top-section {
+      padding-top: 39px;
+    }
+  }
+}
+
+.hide-mobile {
+  margin-top: 40px;
 }

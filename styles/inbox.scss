@@ -12,29 +12,29 @@
   &__figure {
     margin: 0;
     text-align: center;
+  }
+  
+  &__figure-wheel {
+    max-width: 100%;
+    padding: 50px 0 32px 0;
 
-    &-wheel {
-      max-width: 100%;
-      padding: 50px 0 32px 0;
-
-      @include for-large-up {
-        padding: 142px 164px 15px 178px;
-      }
-    }
-
-    &-description {
-      display: none;
-
-      @include for-large-up {
-        display: block;
-        font-size: 14px;
-        line-height: 22px;
-        color: $text-color-light-grey;
-      }
+    @include for-large-up {
+      padding: 142px 164px 15px 178px;
     }
   }
 
-  .inbox__content {
+  &__figure-description {
+    display: none;
+
+    @include for-large-up {
+      display: block;
+      font-size: 14px;
+      line-height: 22px;
+      color: $text-color-light-grey;
+    }
+  }
+
+  &__content {
     @include for-large-up {
       max-width: 519px;
       margin-top: 115px;
@@ -106,7 +106,7 @@
       margin: 2px 11px 18px 29px;
     }
   }
-  
+
   &__about-worker {
     max-width: 199px;
     font-size: 16px;
@@ -117,9 +117,9 @@
     @include for-large-up {
       max-width: 100%;
     }
+  }
 
-    &-profession {
-      margin: 0;
-    }
+  &__about-worker-profession {
+    margin: 0;
   }
 }
