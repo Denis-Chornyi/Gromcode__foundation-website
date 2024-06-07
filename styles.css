@@ -608,7 +608,6 @@
 .order {
   padding: 50px 15px;
   background-color: #f4f5f7;
-  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .order {
@@ -621,9 +620,6 @@
 }
 .order__details {
   max-width: 555px;
-}
-.order__illustration {
-  max-width: 200px;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
