@@ -226,7 +226,7 @@
 }
 
 .downloads {
-  margin-top: 31px;
+  margin: 31px 0 40px 0;
   display: flex;
   justify-content: center;
 }
