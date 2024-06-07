@@ -16,22 +16,16 @@
     }
   }
 
+  &__about-company {
+    padding-top: 44px;
+  }
+
   &__line {
     width: 100%;
     border-top: 1px solid #2b292d;
     opacity: 0.1;
     margin: 0;
   }
-
-  .logo {
-    @include for-large-down {
-      display: none;
-    }
-  }
-}
-
-.about-company {
-  padding-top: 44px;
 }
 
 .downloads {

@@ -74,6 +74,13 @@
       }
     }
   }
+
+  &__action-btn {
+
+    &_white {
+      color: $text-color-black;
+    }
+  }
 }
 
 .user-card {
@@ -83,9 +90,9 @@
     #fff;
   background-blend-mode: overlay, normal;
   box-shadow:
-    0px 4px 6px 0px rgba(0, 0, 0, 0.05),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.1),
-    0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+    0px 4px 6px 0px #0000000d,
+    0px 1px 3px 0px #0000001a,
+    0px 1px 0px 0px #ffffff1a inset;
   cursor: pointer;
 
   @include for-large-up {
@@ -110,8 +117,4 @@
   }
 }
 
-.audience__action-btn {
-  &_white {
-    color: $text-color-black;
-  }
-}
+

@@ -19,18 +19,22 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
   color: #2b292d;
 }
+
 a {
   text-decoration: none;
   color: $text-color-light-grey;
 }
+
 button {
   cursor: pointer;
 }
+
 .page {
   width: 100%;
 
