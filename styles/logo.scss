@@ -5,10 +5,6 @@
     padding: 2px 0 0 10px;
   }
   
-  @include for-large-down {
-      display: none;
-  }
-  
   &__image {
     height: 48px;
     width: 48px;
@@ -43,6 +39,12 @@
       opacity: 0.6;
     }
   }
+
+  &_footer {
+    @include for-large-down {
+    display: none;
+    }  
+  }
 }
 
 .logo-vertical {
@@ -73,3 +75,4 @@
     line-height: 25px;
   }
 }
+

@@ -1270,11 +1270,6 @@
     padding: 2px 0 0 10px;
   }
 }
-@media screen and (max-width: 1399px) {
-  .logo {
-    display: none;
-  }
-}
 .logo__image {
   height: 48px;
   width: 48px;
@@ -1306,6 +1301,11 @@
     font-size: 18px;
     line-height: 25px;
     opacity: 0.6;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .logo_footer {
+    display: none;
   }
 }
 
