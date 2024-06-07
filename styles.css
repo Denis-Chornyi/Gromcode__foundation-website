@@ -226,7 +226,7 @@
 }
 
 .downloads {
-  margin: 31px 0 40px 0;
+  margin: 31px 0 36px 0;
   display: flex;
   justify-content: center;
 }
@@ -632,7 +632,7 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
-  margin-top: 40px;
+  margin: 40px 0 0 0;
 }
 .order__text {
   font-size: 24px;
